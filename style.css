@@ -8,8 +8,10 @@
     --accent-color1: #F2CA52;
     --accent-color2: ##BF4539;
     --accent-color3: ##A64833;
+    --background-color: whitesmoke;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
+    background: var(--background-color);
 }
