@@ -61,3 +61,20 @@ nav {
     /* Main axis alignment */
     justify-content: center;
 }
+
+/* GRID ITEMS */
+.grid-wrapper {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+
+.grid-item {
+    background: var(--accent-color1);
+    height: 300px;
+    display: flex;
+    /* Cross axis alignment */
+    align-items: center;
+    /* Main axis alignment */
+    justify-content: center;
+}
