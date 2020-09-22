@@ -46,3 +46,18 @@ a {
     /* Remove underline of <a> */
     text-decoration: none;
 }
+
+nav {
+    text-transform: uppercase;
+}
+
+/* COVER */
+.cover-container {
+    background-color: white;
+    height: 50vh;
+    display: flex;
+    /* Cross axis alignment */
+    align-items: center;
+    /* Main axis alignment */
+    justify-content: center;
+}
