@@ -19,6 +19,11 @@ body {
 }
 
 /* NAV */
+.sticky {
+    position: fixed;
+    width: 100vw;
+}
+
 .nav-background {
     background: var(--main-color);
 }
@@ -77,4 +82,11 @@ nav {
     align-items: center;
     /* Main axis alignment */
     justify-content: center;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    background: var(--main-color);
+    color: white;
 }
