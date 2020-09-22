@@ -3,7 +3,7 @@
 /* CSS variable: https://www.w3schools.com/css/css3_variables.asp */
 :root {
     /* Colors: https://color.adobe.com/trends */
-    --main-color: #94CEF2;
+    --main-color: #F24150;
     --secondary-color: #71BBD9;
     --accent-color1: #F2CA52;
     --accent-color2: ##BF4539;
@@ -14,4 +14,35 @@
 body {
     font-family: 'Roboto', sans-serif;
     background: var(--background-color);
+    /* to remove browsers default margin */
+    margin: 0;
+}
+
+/* NAV */
+.nav-background {
+    background: var(--main-color);
+}
+
+.main-nav {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    /* to remove bullet of li */
+    list-style: none;
+    font-size: 1.5em;
+}
+
+
+li {
+    padding: 20px;
+}
+
+.push-right {
+    margin-left: auto;
+}
+
+a {
+    color: white;
+    /* Remove underline of <a> */
+    text-decoration: none;
 }
