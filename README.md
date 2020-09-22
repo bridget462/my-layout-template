@@ -2,6 +2,9 @@
 
 this is part of Udemy Web Development Course by Andrei Neagoie: https://www.udemy.com/course/the-complete-web-developer-zero-to-mastery/
 
+
+Live DEMO: https://bridget462.github.io/my-layout-template/
+
 ![](screenshots/my-web-template.png)
 
 ---
