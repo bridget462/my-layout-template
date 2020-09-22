@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
 
+/* CSS variable: https://www.w3schools.com/css/css3_variables.asp */
+:root {
+    /* Colors: https://color.adobe.com/trends */
+    --main-color: #94CEF2;
+    --secondary-color: #71BBD9;
+    --accent-color1: #F2CA52;
+    --accent-color2: ##BF4539;
+    --accent-color3: ##A64833;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
 }
